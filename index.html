@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Aditya Narayan Raul | Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Aditya <span>Raul</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <!-- Dropdown Menu for Mobile -->
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">Hey, I'm <span>Aditya</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    I'm a <span class="typewriter-text"></span><label for="">|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="400">
+                    A passionate Frontend Developer and aspiring trader. I create innovative web solutions and explore the complexities of financial markets.
+                </p>
+                <div class="cta-buttons" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
+                    <a href="#contact"><button>Hire Me</button></a>
+                    <a href="resume.pdf" download><button>Download Resume</button></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="prof.jpg" alt="Aditya's Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- Strong Introduction -->
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>
+                        Hi, I'm Aditya Narayan Raul, a Frontend Developer and aspiring trader with a passion for creating innovative web solutions and exploring financial markets. Currently pursuing my education at CMRIT, I am sharpening my skills in web development while diving into the complexities of financial markets.
+                    </p>
+    
+                    <!-- Education -->
+                    <h3>Education</h3>
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <th>Degree</th>
+                                <th>Institution</th>
+                                <th>Year</th>
+                                <th>CGPA/Percentage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Class 10 (CBSE)</td>
+                                <td>APS Shankar Vihar, New Delhi</td>
+                                <td>2020</td>
+                                <td>78%</td>
+                            </tr>
+                            <tr>
+                                <td>Class 12 (CBSE)</td>
+                                <td>APS K. Kamaraj Road, Bangalore</td>
+                                <td>2022</td>
+                                <td>90%</td>
+                            </tr>
+                            <tr>
+                                <td>Bachelor of Engineering in Computer Science Engineering</td>
+                                <td>CMR Institute of Technology, Bengaluru</td>
+                                <td>2022 - 2026</td>
+                                <td>--</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+    
+                    <!-- Professional Background -->
+                    <h3>Experience</h3>
+                    <ul>
+                        <li><strong>Intern, Financial Markets Research</strong> - MassHoldings Pvt. Ltd (June 2024 - August 2024)</li>
+                        <li><strong>Freelance Web Developer</strong> - Self-employed (2023 - Present)</li>
+                    </ul>
+    
+                    <!-- Skills -->
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Frontend Development: HTML, CSS, JavaScript</li>
+                        <li>Technical Analysis: Chart reading, market indicators</li>
+                        <li>Editing: Video and photo editing</li>
+                    </ul>
+    
+                    <!-- Goals and Aspirations -->
+                    <h3>My Goals</h3>
+                    <ul>
+                        <li>Develop innovative web applications that solve real-world problems.</li>
+                        <li>Excel in trading by mastering technical and fundamental analysis.</li>
+                        <li>Integrate technology and finance to create automated trading systems.</li>
+                    </ul>
+    
+                    <!-- Personality and Hobbies -->
+                    <h3>Hobbies & Interests</h3>
+                    <ul>
+                        <li>Editing videos and photos</li>
+                        <li>Programming and building interactive web applications</li>
+                        <li>Reading books on finance, self-development, and technology</li>
+                    </ul>
+    
+                    <!-- Certifications -->
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Complete Java from Basic to Advanced, Coursera</li>
+                        <li>Python for Beginners, Cursa</li>
+                        <li>Web Development Bootcamp, Udemy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill" data-aos="fade-up" data-aos-duration="1500">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Proficient in HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Technical Analysis</h3>
+                    <p>Understanding charts and market indicators.</p>
+                </div>
+                <div class="skill" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h3>Editing</h3>
+                    <p>Video and photo editing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+            <div class="projects-grid">
+                <div class="project" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A responsive portfolio website showcasing my skills and projects.</p>
+                    <a href="https://github.com/adityaraul004/resumeProject.git" target="_blank">GitHub</a>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>An AI-driven Snake Game leveraging Reinforcement Learning for autonomous gameplay.</p>
+                    <a href="https://github.com/adityaraul004/SnakeGameAI" target="_blank">GitHub</a>
+                </div>
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Smart Care is a lightweight health management system for small clinics and junior doctors, enabling structured patient tracking and early ADR detection.</p>
+                    <a href="https://github.com/adityaraul004/KarasunoHackathon.git" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1500">
+                    <h3>Get in Touch</h3>
+                    <p>If you'd like to discuss opportunities or share ideas, feel free to reach out:</p>
+                    <ul>
+                        <li><strong>Email:</strong> rauladitya1234@gmail.com</li>
+                        <li><strong>Phone:</strong> +91-8249513253</li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditya-raul-5929b4259/" target="_blank">linkedin.com/in/aditya-raul</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/adityaraul004" target="_blank">github.com/adityaraul004</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
